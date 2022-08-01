@@ -3,7 +3,7 @@ const router = express.Router();
 const UserController= require ('../controllers/usercontroller');
 const checkUserAuth = require ('../middleware/auth_middleware')
 // Route Level Middleware
-router.use('/changepassword',checkuserAuth)
+router.use('/changepassword', checkUserAuth)
 
 
 // Public Routes
